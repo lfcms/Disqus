@@ -1,8 +1,9 @@
+<?php if($config == '') $config = 'littlefoot'; ?>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 	/* Per https://help.disqus.com/customer/portal/articles/472097-universal-embed-code */
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'littlefoot'; // Required - Replace example with your forum shortname
+    var disqus_shortname = '<?=$config;?>'; // Required - Replace example with your forum shortname
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
